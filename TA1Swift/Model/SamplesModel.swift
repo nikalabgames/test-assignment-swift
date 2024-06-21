@@ -19,27 +19,27 @@ struct SampleDataSource: Hashable {
         callback([
             SampleMessage(sender: self.inSender,
                           media: [
-                            NSURL(string: "https://placekitten.com/g/200/300")!,
-                            NSURL(string: "https://placekitten.com/g/300/300")!,
-                            NSURL(string: "https://placekitten.com/g/400/400")!,
+                            URL(string: "https://placebear.com/g/200/300")!,
+                            URL(string: "https://placebear.com/g/300/300")!,
+                            URL(string: "https://placebear.com/g/400/400")!,
                           ],
                           sentTimestamp: "2023-01-25T16:50:00+03:00"),
             SampleMessage(sender: self.inSender,
                           media: [
-                            NSURL(string: "https://placekitten.com/g/300/400")!
+                            URL(string: "https://placebear.com/g/300/400")!
                           ],
                           sentTimestamp: "2023-01-29T09:00:00+03:00"),
             SampleMessage(sender: self.outSender,
                           media: [
-                            NSURL(string: "https://placekitten.com/g/200/400")!
+                            URL(string: "https://placebear.com/g/200/400")!
                           ],
                           sentTimestamp: "2023-01-31T10:30:00+03:00"),
             SampleMessage(sender: self.outSender,
                           media: [
-                            NSURL(string: "https://placekitten.com/g/400/400")!,
-                            NSURL(string: "https://placekitten.com/g/200/200")!,
-                            NSURL(string: "https://placekitten.com/g/300/400")!,
-                            NSURL(string: "https://placekitten.com/g/300/200")!,
+                            URL(string: "https://placebear.com/g/400/400")!,
+                            URL(string: "https://placebear.com/g/200/200")!,
+                            URL(string: "https://placebear.com/g/300/400")!,
+                            URL(string: "https://placebear.com/g/300/200")!,
                           ],
                           sentTimestamp: "2023-01-31T12:10:00+03:00")
         ])
@@ -48,7 +48,7 @@ struct SampleDataSource: Hashable {
 
 struct SampleMessage: Hashable {
     let sender: SampleSender?
-    let media: [NSURL]?
+    let media: [URL]?
     let sentTimestamp: String?
 }
 
@@ -56,4 +56,6 @@ struct SampleSender: Hashable {
     let senderId: String
     let senderFullName: String
     let senderMeta: String?
+	
+	var isMe: Bool { senderId == Session.userId }
 }
