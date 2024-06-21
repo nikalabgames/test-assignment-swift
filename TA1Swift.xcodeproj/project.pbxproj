@@ -115,9 +115,9 @@
 		844A713A2C25AD53008073DC /* MessageImageView */ = {
 			isa = PBXGroup;
 			children = (
-				844A713B2C25AD79008073DC /* MessageImageViewCell.swift */,
 				84F7386B2C25CD0500A729B4 /* MessageImageViewAdapter.swift */,
 				844A713D2C25ADB9008073DC /* MessageImageViewModel.swift */,
+				844A713B2C25AD79008073DC /* MessageImageViewCell.swift */,
 			);
 			path = MessageImageView;
 			sourceTree = "<group>";
@@ -164,9 +164,9 @@
 		8469C6662C24AF190043D265 /* MessageView */ = {
 			isa = PBXGroup;
 			children = (
-				8469C6672C24AF3D0043D265 /* MessageViewCell.swift */,
 				8469C6692C24AF7F0043D265 /* MessageViewAdapter.swift */,
 				8469C6702C24B8020043D265 /* MessageViewModel.swift */,
+				8469C6672C24AF3D0043D265 /* MessageViewCell.swift */,
 			);
 			path = MessageView;
 			sourceTree = "<group>";

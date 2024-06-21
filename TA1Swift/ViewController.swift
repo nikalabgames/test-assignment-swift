@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-		self.view.backgroundColor = .white
+		self.view.backgroundColor = .systemBackground
 		
 		self.collectionView.contentInsetAdjustmentBehavior = .always
 		
@@ -29,8 +29,14 @@ class ViewController: UIViewController {
 			
 			self?.collectionView.adapter.items = messages.map{ MessageViewModel(message: $0) }
 			self?.collectionView.reloadData()
-        }
+        }		
     }
+	
+	override func viewWillAppear(_ animated: Bool) {
+		
+		super.viewWillAppear(animated)
+		self.overrideUserInterfaceStyle = UIScreen.main.traitCollection.userInterfaceStyle
+	}
 	
 	override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 		
