@@ -24,7 +24,7 @@ final class MessageViewAdapter: CollectionViewAdapter {
 		}
 		.numberOfItems { [weak self] collectionView, section in
 			
-			return self?.items.count ?? 0
+			return self?.messages.count ?? 0
 		}
 		.sizeForItem { [weak self]  collectionView, indexPath in
 			

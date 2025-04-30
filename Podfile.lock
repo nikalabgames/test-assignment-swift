@@ -1,0 +1,337 @@
+PODS:
+  - Ads-Global (6.3.0.9):
+    - Ads-Global/BUAdSDK (= 6.3.0.9)
+  - Ads-Global/BUAdSDK (6.3.0.9)
+  - AppLovinSDK (13.0.1)
+  - AppLovinYandexMobileAdsAdapters (13.0.1.5):
+    - AppLovinSDK (~> 13.0.1)
+    - YandexMobileAds (~> 7.12.0)
+  - AppMetricaCore (5.9.0):
+    - AppMetricaCoreUtils (= 5.9.0)
+    - AppMetricaEncodingUtils (= 5.9.0)
+    - AppMetricaFMDB (= 5.9.0)
+    - AppMetricaHostState (= 5.9.0)
+    - AppMetricaIdentifiers (= 5.9.0)
+    - AppMetricaKeychain (= 5.9.0)
+    - AppMetricaLog (= 5.9.0)
+    - AppMetricaNetwork (= 5.9.0)
+    - AppMetricaPlatform (= 5.9.0)
+    - AppMetricaProtobuf (= 5.9.0)
+    - AppMetricaProtobufUtils (= 5.9.0)
+    - AppMetricaStorageUtils (= 5.9.0)
+  - AppMetricaCoreExtension (5.9.0):
+    - AppMetricaCore (= 5.9.0)
+    - AppMetricaStorageUtils (= 5.9.0)
+  - AppMetricaCoreUtils (5.9.0):
+    - AppMetricaLog (= 5.9.0)
+  - AppMetricaCrashes (5.9.0):
+    - AppMetricaCore (= 5.9.0)
+    - AppMetricaCoreExtension (= 5.9.0)
+    - AppMetricaCoreUtils (= 5.9.0)
+    - AppMetricaEncodingUtils (= 5.9.0)
+    - AppMetricaHostState (= 5.9.0)
+    - AppMetricaLog (= 5.9.0)
+    - AppMetricaPlatform (= 5.9.0)
+    - AppMetricaProtobufUtils (= 5.9.0)
+    - AppMetricaStorageUtils (= 5.9.0)
+    - KSCrash/Recording (< 2.1.0, >= 2.0.0-rc.1)
+  - AppMetricaEncodingUtils (5.9.0):
+    - AppMetricaCoreUtils (= 5.9.0)
+    - AppMetricaLog (= 5.9.0)
+    - AppMetricaPlatform (= 5.9.0)
+  - AppMetricaFMDB (5.9.0)
+  - AppMetricaHostState (5.9.0):
+    - AppMetricaCoreUtils (= 5.9.0)
+    - AppMetricaLog (= 5.9.0)
+  - AppMetricaIdentifiers (5.9.0):
+    - AppMetricaKeychain (= 5.9.0)
+    - AppMetricaLogSwift (= 5.9.0)
+    - AppMetricaPlatform (= 5.9.0)
+    - AppMetricaStorageUtils (= 5.9.0)
+    - AppMetricaSynchronization (= 5.9.0)
+  - AppMetricaKeychain (5.9.0):
+    - AppMetricaCoreUtils (= 5.9.0)
+    - AppMetricaLog (= 5.9.0)
+    - AppMetricaStorageUtils (= 5.9.0)
+  - AppMetricaLibraryAdapter (5.9.0):
+    - AppMetricaCore (= 5.9.0)
+    - AppMetricaCoreExtension (= 5.9.0)
+  - AppMetricaLog (5.9.0)
+  - AppMetricaLogSwift (5.9.0):
+    - AppMetricaLog (= 5.9.0)
+  - AppMetricaNetwork (5.9.0):
+    - AppMetricaCoreUtils (= 5.9.0)
+    - AppMetricaLog (= 5.9.0)
+    - AppMetricaPlatform (= 5.9.0)
+  - AppMetricaPlatform (5.9.0):
+    - AppMetricaCoreUtils (= 5.9.0)
+    - AppMetricaLog (= 5.9.0)
+  - AppMetricaProtobuf (5.9.0)
+  - AppMetricaProtobufUtils (5.9.0):
+    - AppMetricaProtobuf (= 5.9.0)
+  - AppMetricaStorageUtils (5.9.0):
+    - AppMetricaCoreUtils (= 5.9.0)
+    - AppMetricaLog (= 5.9.0)
+  - AppMetricaSynchronization (5.9.0):
+    - AppMetricaLogSwift (= 5.9.0)
+  - BigoADS (4.6.0)
+  - BigoADSYandexMobileAdsAdapters (4.6.0.4):
+    - BigoADS (~> 4.6.0)
+    - YandexMobileAds (~> 7.12.0)
+  - ChartboostSDK (9.8.1)
+  - ChartboostYandexMobileAdsAdapters (9.8.0.6):
+    - ChartboostSDK (~> 9.8.0)
+    - YandexMobileAds (~> 7.12.0)
+  - DigitalTurbineYandexMobileAdsAdapters (8.3.2.0):
+    - Fyber_Marketplace_SDK (~> 8.3.2)
+    - YandexMobileAds (~> 7.12.0)
+  - DivKit (31.11.0):
+    - DivKit_LayoutKit (= 31.11.0)
+    - DivKit_Serialization (= 31.11.0)
+    - VGSL (~> 6.22)
+  - DivKit_LayoutKit (31.11.0):
+    - DivKit_LayoutKitInterface (= 31.11.0)
+    - VGSL (~> 6.22)
+  - DivKit_LayoutKitInterface (31.11.0):
+    - VGSL (~> 6.22)
+  - DivKit_Serialization (31.11.0):
+    - VGSL (~> 6.22)
+  - DivKitBinaryCompatibilityFacade (4.6.1):
+    - DivKit (~> 31.4)
+  - Fyber_Marketplace_SDK (8.3.6)
+  - Google-Mobile-Ads-SDK (11.12.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (3.0.0)
+  - GoogleYandexMobileAdsAdapters (11.12.0.5):
+    - Google-Mobile-Ads-SDK (~> 11.12.0)
+    - YandexMobileAds (~> 7.12.0)
+  - InMobiSDK (10.7.8)
+  - InMobiYandexMobileAdsAdapters (10.7.8.8):
+    - InMobiSDK (~> 10.7.8)
+    - YandexMobileAds (~> 7.12.0)
+  - IronSourceSDK (8.5.0.0)
+  - IronSourceYandexMobileAdsAdapters (8.5.0.5):
+    - IronSourceSDK (~> 8.5.0.0)
+    - YandexMobileAds (~> 7.12.0)
+  - KSCrash/Core (2.0.0)
+  - KSCrash/Recording (2.0.0):
+    - KSCrash/RecordingCore
+  - KSCrash/RecordingCore (2.0.0):
+    - KSCrash/Core
+  - MintegralAdSDK (7.7.7):
+    - MintegralAdSDK/BannerAd (= 7.7.7)
+    - MintegralAdSDK/BidBannerAd (= 7.7.7)
+    - MintegralAdSDK/BidInterstitialVideoAd (= 7.7.7)
+    - MintegralAdSDK/BidNativeAd (= 7.7.7)
+    - MintegralAdSDK/BidNewInterstitialAd (= 7.7.7)
+    - MintegralAdSDK/BidRewardVideoAd (= 7.7.7)
+    - MintegralAdSDK/InterstitialVideoAd (= 7.7.7)
+    - MintegralAdSDK/NativeAd (= 7.7.7)
+    - MintegralAdSDK/NewInterstitialAd (= 7.7.7)
+    - MintegralAdSDK/RewardVideoAd (= 7.7.7)
+  - MintegralAdSDK/BannerAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidBannerAd (7.7.7):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/BidInterstitialVideoAd (7.7.7):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/InterstitialVideoAd
+  - MintegralAdSDK/BidNativeAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNewInterstitialAd (7.7.7):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (7.7.7):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/InterstitialVideoAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.7.7)
+  - MintegralAdSDK/NewInterstitialAd (7.7.7):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.7.7):
+    - MintegralAdSDK/NativeAd
+  - MintegralYandexMobileAdsAdapters (7.7.3.8):
+    - MintegralAdSDK (~> 7.7.3)
+    - YandexMobileAds (~> 7.12.0)
+  - myTargetSDK (5.26.0):
+    - myTrackerSDK (~> 3.2.0)
+  - MyTargetYandexMobileAdsAdapters (5.26.0.0):
+    - myTargetSDK (~> 5.26.0)
+    - YandexMobileAds (~> 7.12.0)
+  - myTrackerSDK (3.2.1)
+  - PangleYandexMobileAdsAdapters (6.3.0.4):
+    - Ads-Global (~> 6.3.0.9)
+    - YandexMobileAds (~> 7.12.0)
+  - UnityAds (4.12.5)
+  - UnityAdsYandexMobileAdsAdapters (4.12.4.5):
+    - UnityAds (~> 4.12.4)
+    - YandexMobileAds (~> 7.12.0)
+  - VGSL (6.28.0):
+    - VGSLFundamentals (= 6.28.0)
+    - VGSLNetworking (= 6.28.0)
+    - VGSLUI (= 6.28.0)
+  - VGSLFundamentals (6.28.0)
+  - VGSLNetworking (6.28.0):
+    - VGSLFundamentals (= 6.28.0)
+    - VGSLUI (= 6.28.0)
+  - VGSLUI (6.28.0):
+    - VGSLFundamentals (= 6.28.0)
+  - VungleAds (7.4.5)
+  - VungleYandexMobileAdsAdapters (7.4.2.5):
+    - VungleAds (~> 7.4.2)
+    - YandexMobileAds (~> 7.12.0)
+  - YandexMobileAds (7.12.1):
+    - AppMetricaCore (< 6.0.0, >= 5.8.0)
+    - AppMetricaCrashes (< 6.0.0, >= 5.8.0)
+    - AppMetricaLibraryAdapter (< 6.0.0, >= 5.8.0)
+    - DivKitBinaryCompatibilityFacade (= 4.6.1)
+  - YandexMobileAdsMediation (7.12.0):
+    - AppLovinYandexMobileAdsAdapters (~> 13.0.1.5)
+    - BigoADSYandexMobileAdsAdapters (~> 4.6.0.4)
+    - ChartboostYandexMobileAdsAdapters (~> 9.8.0.6)
+    - DigitalTurbineYandexMobileAdsAdapters (~> 8.3.2.0)
+    - GoogleYandexMobileAdsAdapters (~> 11.12.0.5)
+    - InMobiYandexMobileAdsAdapters (~> 10.7.8.8)
+    - IronSourceYandexMobileAdsAdapters (~> 8.5.0.5)
+    - MintegralYandexMobileAdsAdapters (~> 7.7.3.8)
+    - MyTargetYandexMobileAdsAdapters (~> 5.26.0.0)
+    - PangleYandexMobileAdsAdapters (~> 6.3.0.4)
+    - UnityAdsYandexMobileAdsAdapters (~> 4.12.4.5)
+    - VungleYandexMobileAdsAdapters (~> 7.4.2.5)
+    - YandexMobileAds (~> 7.12.0)
+    - zMaticooYandexMobileAdsAdapters (~> 1.5.0.5)
+  - zMaticoo (1.5.4)
+  - zMaticooYandexMobileAdsAdapters (1.5.0.5):
+    - YandexMobileAds (~> 7.12.0)
+    - zMaticoo (~> 1.5.0)
+
+DEPENDENCIES:
+  - YandexMobileAdsMediation
+
+SPEC REPOS:
+  trunk:
+    - Ads-Global
+    - AppLovinSDK
+    - AppLovinYandexMobileAdsAdapters
+    - AppMetricaCore
+    - AppMetricaCoreExtension
+    - AppMetricaCoreUtils
+    - AppMetricaCrashes
+    - AppMetricaEncodingUtils
+    - AppMetricaFMDB
+    - AppMetricaHostState
+    - AppMetricaIdentifiers
+    - AppMetricaKeychain
+    - AppMetricaLibraryAdapter
+    - AppMetricaLog
+    - AppMetricaLogSwift
+    - AppMetricaNetwork
+    - AppMetricaPlatform
+    - AppMetricaProtobuf
+    - AppMetricaProtobufUtils
+    - AppMetricaStorageUtils
+    - AppMetricaSynchronization
+    - BigoADS
+    - BigoADSYandexMobileAdsAdapters
+    - ChartboostSDK
+    - ChartboostYandexMobileAdsAdapters
+    - DigitalTurbineYandexMobileAdsAdapters
+    - DivKit
+    - DivKit_LayoutKit
+    - DivKit_LayoutKitInterface
+    - DivKit_Serialization
+    - DivKitBinaryCompatibilityFacade
+    - Fyber_Marketplace_SDK
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+    - GoogleYandexMobileAdsAdapters
+    - InMobiSDK
+    - InMobiYandexMobileAdsAdapters
+    - IronSourceSDK
+    - IronSourceYandexMobileAdsAdapters
+    - KSCrash
+    - MintegralAdSDK
+    - MintegralYandexMobileAdsAdapters
+    - myTargetSDK
+    - MyTargetYandexMobileAdsAdapters
+    - myTrackerSDK
+    - PangleYandexMobileAdsAdapters
+    - UnityAds
+    - UnityAdsYandexMobileAdsAdapters
+    - VGSL
+    - VGSLFundamentals
+    - VGSLNetworking
+    - VGSLUI
+    - VungleAds
+    - VungleYandexMobileAdsAdapters
+    - YandexMobileAds
+    - YandexMobileAdsMediation
+    - zMaticoo
+    - zMaticooYandexMobileAdsAdapters
+
+SPEC CHECKSUMS:
+  Ads-Global: 8ff815e023ec8063604433ce4ce85ac71ea85031
+  AppLovinSDK: fdae6a4361c9c9b09f8d7d18ede792368221d987
+  AppLovinYandexMobileAdsAdapters: 50234c641a50563e6d1495b014339ef079d7dd25
+  AppMetricaCore: cdad94c505967ebac86f81da48841df3136ef696
+  AppMetricaCoreExtension: b9c8695bac86ec7f4ef90f905131f7b9d31d8295
+  AppMetricaCoreUtils: 3c7aa8a78895f98f557f1bc88bce4eb80a6bcd2a
+  AppMetricaCrashes: 7641b5c23c581693e6c8ae253948635f8f3ff071
+  AppMetricaEncodingUtils: 61f9fd1c510e517e2b4981b940bc510f9498e1bc
+  AppMetricaFMDB: 743a9d6833380eebfa0ca0f1db2883bb05b41c16
+  AppMetricaHostState: 5c9196539244397f7fb8a4db44bddc1bbc67b93b
+  AppMetricaIdentifiers: b870d30d6a5acd9cc9df9e30a37e4bf8a0e03a25
+  AppMetricaKeychain: 767acc62243599c034bab686093640b3e86d3893
+  AppMetricaLibraryAdapter: 73d0a414a7bf691c4a52c45c83652d150e571def
+  AppMetricaLog: 9fdc87723f6a1b497866f6827143117d7ff667c4
+  AppMetricaLogSwift: 9d67b9ce5097cfed6ff56a6a4ec7770f2ce2df07
+  AppMetricaNetwork: 81342ff33cd3786bcdbe06c5b580179aec7c95c2
+  AppMetricaPlatform: cb4699122820183ce3dc29fc386bada3afde99d5
+  AppMetricaProtobuf: 8d9ad65007f56af94b324dbc31096ee8be04d412
+  AppMetricaProtobufUtils: 33f29ccee2f898b537eece0c4fe04e14e1bdab9a
+  AppMetricaStorageUtils: 42c3f8163226516aec3e183db4f3e1a29fac1c41
+  AppMetricaSynchronization: ed4196effc6997921fab53503e79c6505dbae707
+  BigoADS: c4d9ec9cf6d3346843e126cdba111647ec402d9b
+  BigoADSYandexMobileAdsAdapters: d3b2a9b0d38cdc1db0894d9002b46a88650609d5
+  ChartboostSDK: 5d387aeccf2748cd71c0b033e6c2cad4a558b308
+  ChartboostYandexMobileAdsAdapters: beb881dc7eea40b11d616ecc7f3ec6ab34549a39
+  DigitalTurbineYandexMobileAdsAdapters: a611dc6202e541ee9f690b505d68dd294251fd68
+  DivKit: 8c8637038a7303a7a006c32ef87f248e50d234be
+  DivKit_LayoutKit: e2cfb72ffbc53c9ca080d2a2ad70e1eb6977a8c4
+  DivKit_LayoutKitInterface: ffbab1f47c62a018f642f50678fef718929e7e7f
+  DivKit_Serialization: 80567942f57d8b7e41a7fb23077339771a2e223b
+  DivKitBinaryCompatibilityFacade: 99f7ce6693fe3705c8ccb8c6d8c27aae0637b5ec
+  Fyber_Marketplace_SDK: 231146f679a38b29fe40c855b51c2a7dc085c116
+  Google-Mobile-Ads-SDK: 3a76704456669fbed2057efc8bdb99050ad0e3fb
+  GoogleUserMessagingPlatform: f8d0cdad3ca835406755d0a69aa634f00e76d576
+  GoogleYandexMobileAdsAdapters: a87c1f820170bc77ffc804b7c70e527ae8122b03
+  InMobiSDK: ee53561ba1fd21787b1eb82f02da9b93067ffc8e
+  InMobiYandexMobileAdsAdapters: 9c66e139efee98e7a309d00aba00ff27044a78d6
+  IronSourceSDK: 9ca8fc2e59892dece8d93bf2745137d1cf16333e
+  IronSourceYandexMobileAdsAdapters: 8440ae9f21dd5083f8f2314642beaa079ada87bb
+  KSCrash: ad271a7799f0a2841be0fb7d6bd105444c440832
+  MintegralAdSDK: 190c6cd3d83b31b51833e3341857c58dc430da2e
+  MintegralYandexMobileAdsAdapters: 4715aa2ad856476ae8e44f7279af4dcfa0e3692f
+  myTargetSDK: 51c47d1c3a03c5fb80334de39abd945b834cf637
+  MyTargetYandexMobileAdsAdapters: a795b5c297002f312c04aa89fc60f5aea768879a
+  myTrackerSDK: 5b4e009f9f87a8febdbf2742b2a02559aeb56849
+  PangleYandexMobileAdsAdapters: 95f0095d7f58a388b68ddbe8bd0fd805ce07c0ca
+  UnityAds: a4036ed911b4df2227d8137f4f777fcb86c4a2df
+  UnityAdsYandexMobileAdsAdapters: 9770971399221597d994cf6bacccac945aaff654
+  VGSL: 459a7561a2002f9698e58cacfa2888708010ba78
+  VGSLFundamentals: 55fbbcdf3073dc2384905017f8e2a43fca1f3707
+  VGSLNetworking: ef1ee8f8e2632aaeb742bc576f9dd881e34e0db6
+  VGSLUI: 3e1966b09a48dd4bd874fee3b29948e8a5c449ee
+  VungleAds: 1da221690dd1a8710d0b6a4c7aeac14cb12d31ab
+  VungleYandexMobileAdsAdapters: 8173eea04e0603463a50762079aece5ee44e0ada
+  YandexMobileAds: 5555d134390d7009f7a2b1b69f2a8deb656c8fe3
+  YandexMobileAdsMediation: d09da2bee6d3ef73ee6f1e446a675c50daa73405
+  zMaticoo: 55c4c7fef4c4f8f8aedca9acd892e32a68ed45e3
+  zMaticooYandexMobileAdsAdapters: 1bafe55dcfe04727259030ce705e786367c1318c
+
+PODFILE CHECKSUM: 0992ef573ab582480a9a06d5bf62d36684407d1e
+
+COCOAPODS: 1.16.2
